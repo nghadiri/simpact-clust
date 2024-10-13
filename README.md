@@ -23,3 +23,11 @@ By combining these methods, SIMPaCT optimizes sensor deployment while maintainin
 - Enhance data reliability and reduce sensor maintenance costs.
 - Ensure optimal sensor placement through clustering and robotic data collection.
 - Enable sustainable water management to combat urban heat and water scarcity.
+
+## Citation
+For further details and research behind these methods, please refer to:
+
+**Data Optimisation of Machine Learning Models for Smart Irrigation in Urban Parks**  
+Published in 2024  
+Authors: Nasser Ghadiri, Bahman Javadi, Oliver Obst, Sebastian Pfautsch  
+[https://arxiv.org/abs/2410.02335](https://arxiv.org/abs/2410.02335)
