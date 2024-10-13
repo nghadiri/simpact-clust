@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80626af5268a33966c7f49defc25a79f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 800.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80626af5268a33966c7f49defc25a79f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80626af5268a33966c7f49defc25a79f = L.map(
+                "map_80626af5268a33966c7f49defc25a79f",
+                {
+                    center: [-33.84793916666666, 151.07814333333334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dcf0db44b35656b980b8599dc6dd42a6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dcf0db44b35656b980b8599dc6dd42a6.addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var marker_4e4563fbb049042b3f7457262a2cde89 = L.marker(
+                [-33.84744, 151.07801],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_99c70c83b1326caedab16c8daecb85b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40d0e39f33bac86782788ffa124dccc1 = $(`<div id="html_40d0e39f33bac86782788ffa124dccc1" style="width: 100.0%; height: 100.0%;">SENS0024-SM-SOPA</div>`)[0];
+                popup_99c70c83b1326caedab16c8daecb85b7.setContent(html_40d0e39f33bac86782788ffa124dccc1);
+            
+        
+
+        marker_4e4563fbb049042b3f7457262a2cde89.bindPopup(popup_99c70c83b1326caedab16c8daecb85b7)
+        ;
+
+        
+    
+    
+            marker_4e4563fbb049042b3f7457262a2cde89.bindTooltip(
+                `<div>
+                     0024
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82d047ed2edcad8cfd8e9d930109cbf9 = L.marker(
+                [-33.84744, 151.07801],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_2365d7ff0dff27053f45480be2af704c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0024\u003c/div\u003e"});
+            marker_82d047ed2edcad8cfd8e9d930109cbf9.setIcon(div_icon_2365d7ff0dff27053f45480be2af704c);
+        
+    
+        var popup_93411fc9f873ae301c938891a629dcce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1925aa5ac98208a775f5f637ccfc281f = $(`<div id="html_1925aa5ac98208a775f5f637ccfc281f" style="width: 100.0%; height: 100.0%;">SENS0024-SM-SOPA</div>`)[0];
+                popup_93411fc9f873ae301c938891a629dcce.setContent(html_1925aa5ac98208a775f5f637ccfc281f);
+            
+        
+
+        marker_82d047ed2edcad8cfd8e9d930109cbf9.bindPopup(popup_93411fc9f873ae301c938891a629dcce)
+        ;
+
+        
+    
+    
+            var marker_711222bbc5491ce6df9ef8894eaf5f0b = L.marker(
+                [-33.84858, 151.07834],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_046f4f9923139bd3d9a1c98b2581dadc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99731fa46584eaea24e432fdc902976a = $(`<div id="html_99731fa46584eaea24e432fdc902976a" style="width: 100.0%; height: 100.0%;">SENS0037-SM-SOPA</div>`)[0];
+                popup_046f4f9923139bd3d9a1c98b2581dadc.setContent(html_99731fa46584eaea24e432fdc902976a);
+            
+        
+
+        marker_711222bbc5491ce6df9ef8894eaf5f0b.bindPopup(popup_046f4f9923139bd3d9a1c98b2581dadc)
+        ;
+
+        
+    
+    
+            marker_711222bbc5491ce6df9ef8894eaf5f0b.bindTooltip(
+                `<div>
+                     0037
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f426535c55f8e1a6aebccf0de95fd42e = L.marker(
+                [-33.84858, 151.07834],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_3c67da6c1fa7021badee4f9b7b19d1f0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0037\u003c/div\u003e"});
+            marker_f426535c55f8e1a6aebccf0de95fd42e.setIcon(div_icon_3c67da6c1fa7021badee4f9b7b19d1f0);
+        
+    
+        var popup_d97491baa3e013db886a2e21e22fb25e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc1068a20dfbe0db206899ed649fe970 = $(`<div id="html_dc1068a20dfbe0db206899ed649fe970" style="width: 100.0%; height: 100.0%;">SENS0037-SM-SOPA</div>`)[0];
+                popup_d97491baa3e013db886a2e21e22fb25e.setContent(html_dc1068a20dfbe0db206899ed649fe970);
+            
+        
+
+        marker_f426535c55f8e1a6aebccf0de95fd42e.bindPopup(popup_d97491baa3e013db886a2e21e22fb25e)
+        ;
+
+        
+    
+    
+            var marker_357f40a8528490919c2f7845033ea555 = L.marker(
+                [-33.84896, 151.0773],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_ac788528c48e96aae6ae1c735601c0ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2559ee2eaab264491780d6fd0b512f = $(`<div id="html_fe2559ee2eaab264491780d6fd0b512f" style="width: 100.0%; height: 100.0%;">SENS0039-SM-SOPA</div>`)[0];
+                popup_ac788528c48e96aae6ae1c735601c0ed.setContent(html_fe2559ee2eaab264491780d6fd0b512f);
+            
+        
+
+        marker_357f40a8528490919c2f7845033ea555.bindPopup(popup_ac788528c48e96aae6ae1c735601c0ed)
+        ;
+
+        
+    
+    
+            marker_357f40a8528490919c2f7845033ea555.bindTooltip(
+                `<div>
+                     0039
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50ad32d9cd38e28215bca61daf3139b3 = L.marker(
+                [-33.84896, 151.0773],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_c2f655e419b14956bdefb72541f090d8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0039\u003c/div\u003e"});
+            marker_50ad32d9cd38e28215bca61daf3139b3.setIcon(div_icon_c2f655e419b14956bdefb72541f090d8);
+        
+    
+        var popup_b4675a19a0a759a07626519f93b8678c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626d97ed36eac56c705b057e14309b6d = $(`<div id="html_626d97ed36eac56c705b057e14309b6d" style="width: 100.0%; height: 100.0%;">SENS0039-SM-SOPA</div>`)[0];
+                popup_b4675a19a0a759a07626519f93b8678c.setContent(html_626d97ed36eac56c705b057e14309b6d);
+            
+        
+
+        marker_50ad32d9cd38e28215bca61daf3139b3.bindPopup(popup_b4675a19a0a759a07626519f93b8678c)
+        ;
+
+        
+    
+    
+            var marker_996b464bb0a4af0646601071c68c6b2e = L.marker(
+                [-33.8471, 151.07778],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_5a82fa4b4f7cb644fafecfc611a7ea36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_553e136efca10ae71f3e8312ceeb0fba = $(`<div id="html_553e136efca10ae71f3e8312ceeb0fba" style="width: 100.0%; height: 100.0%;">SENS0043-SM-SOPA</div>`)[0];
+                popup_5a82fa4b4f7cb644fafecfc611a7ea36.setContent(html_553e136efca10ae71f3e8312ceeb0fba);
+            
+        
+
+        marker_996b464bb0a4af0646601071c68c6b2e.bindPopup(popup_5a82fa4b4f7cb644fafecfc611a7ea36)
+        ;
+
+        
+    
+    
+            marker_996b464bb0a4af0646601071c68c6b2e.bindTooltip(
+                `<div>
+                     0043
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eb6b4c28b8181fb5d04a367674a38ef = L.marker(
+                [-33.8471, 151.07778],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_ceaf8c5ce7157eb58c2ae6e700cd2091 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0043\u003c/div\u003e"});
+            marker_2eb6b4c28b8181fb5d04a367674a38ef.setIcon(div_icon_ceaf8c5ce7157eb58c2ae6e700cd2091);
+        
+    
+        var popup_9b0d696d6dc3da167780d7b7a7e12bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1507732bcf20d822a6ae634c06062447 = $(`<div id="html_1507732bcf20d822a6ae634c06062447" style="width: 100.0%; height: 100.0%;">SENS0043-SM-SOPA</div>`)[0];
+                popup_9b0d696d6dc3da167780d7b7a7e12bf9.setContent(html_1507732bcf20d822a6ae634c06062447);
+            
+        
+
+        marker_2eb6b4c28b8181fb5d04a367674a38ef.bindPopup(popup_9b0d696d6dc3da167780d7b7a7e12bf9)
+        ;
+
+        
+    
+    
+            var marker_b5b6d68db32ff625a577783695621b6f = L.marker(
+                [-33.84923, 151.07698],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_11142664becbbe6a961c1dd1fda65af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1eb173f47cb4a4c35eb63cdc4570dbe = $(`<div id="html_f1eb173f47cb4a4c35eb63cdc4570dbe" style="width: 100.0%; height: 100.0%;">SENS0063-SM-SOPA</div>`)[0];
+                popup_11142664becbbe6a961c1dd1fda65af4.setContent(html_f1eb173f47cb4a4c35eb63cdc4570dbe);
+            
+        
+
+        marker_b5b6d68db32ff625a577783695621b6f.bindPopup(popup_11142664becbbe6a961c1dd1fda65af4)
+        ;
+
+        
+    
+    
+            marker_b5b6d68db32ff625a577783695621b6f.bindTooltip(
+                `<div>
+                     0063
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b83a6b39205119976272e72400f6766 = L.marker(
+                [-33.84923, 151.07698],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_75555c3e63aec43787ac0abdff59c977 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0063\u003c/div\u003e"});
+            marker_5b83a6b39205119976272e72400f6766.setIcon(div_icon_75555c3e63aec43787ac0abdff59c977);
+        
+    
+        var popup_47513b375d4fbe212fe57f5fcc28097b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282ce073ff4329085d4bec1768608fbe = $(`<div id="html_282ce073ff4329085d4bec1768608fbe" style="width: 100.0%; height: 100.0%;">SENS0063-SM-SOPA</div>`)[0];
+                popup_47513b375d4fbe212fe57f5fcc28097b.setContent(html_282ce073ff4329085d4bec1768608fbe);
+            
+        
+
+        marker_5b83a6b39205119976272e72400f6766.bindPopup(popup_47513b375d4fbe212fe57f5fcc28097b)
+        ;
+
+        
+    
+    
+            var marker_3308ed946a89ae7db604f2f5b439271e = L.marker(
+                [-33.84852, 151.07907],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_705b19174bfbe193aa46790cbbc7dd09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae22987be104c20c665629f74f8c2a35 = $(`<div id="html_ae22987be104c20c665629f74f8c2a35" style="width: 100.0%; height: 100.0%;">SENS0076-SM-SOPA</div>`)[0];
+                popup_705b19174bfbe193aa46790cbbc7dd09.setContent(html_ae22987be104c20c665629f74f8c2a35);
+            
+        
+
+        marker_3308ed946a89ae7db604f2f5b439271e.bindPopup(popup_705b19174bfbe193aa46790cbbc7dd09)
+        ;
+
+        
+    
+    
+            marker_3308ed946a89ae7db604f2f5b439271e.bindTooltip(
+                `<div>
+                     0076
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9163fa0e8e9c7e54795ed3b85a8b7c1b = L.marker(
+                [-33.84852, 151.07907],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_df4a1e8f835e8f45b74b6e9d158b6155 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0076\u003c/div\u003e"});
+            marker_9163fa0e8e9c7e54795ed3b85a8b7c1b.setIcon(div_icon_df4a1e8f835e8f45b74b6e9d158b6155);
+        
+    
+        var popup_e9023b78dc75fa46f6d078f865aa137d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8776dae81b4d938924e721a43d3c7189 = $(`<div id="html_8776dae81b4d938924e721a43d3c7189" style="width: 100.0%; height: 100.0%;">SENS0076-SM-SOPA</div>`)[0];
+                popup_e9023b78dc75fa46f6d078f865aa137d.setContent(html_8776dae81b4d938924e721a43d3c7189);
+            
+        
+
+        marker_9163fa0e8e9c7e54795ed3b85a8b7c1b.bindPopup(popup_e9023b78dc75fa46f6d078f865aa137d)
+        ;
+
+        
+    
+    
+            var marker_cbde1f0d44d2637e9e2396afe6b7938f = L.marker(
+                [-33.84837, 151.07871],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_9c7a72f557673104969b281841719e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62d8307dd09f82a939ac4841fdfbc8ac = $(`<div id="html_62d8307dd09f82a939ac4841fdfbc8ac" style="width: 100.0%; height: 100.0%;">SENS0096-SM-SOPA</div>`)[0];
+                popup_9c7a72f557673104969b281841719e9f.setContent(html_62d8307dd09f82a939ac4841fdfbc8ac);
+            
+        
+
+        marker_cbde1f0d44d2637e9e2396afe6b7938f.bindPopup(popup_9c7a72f557673104969b281841719e9f)
+        ;
+
+        
+    
+    
+            marker_cbde1f0d44d2637e9e2396afe6b7938f.bindTooltip(
+                `<div>
+                     0096
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b80b9ba8887341dd407f7b1ec718a5c = L.marker(
+                [-33.84837, 151.07871],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_0aa9701f3979b5f6d37b01ef14a8bf81 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0096\u003c/div\u003e"});
+            marker_8b80b9ba8887341dd407f7b1ec718a5c.setIcon(div_icon_0aa9701f3979b5f6d37b01ef14a8bf81);
+        
+    
+        var popup_c2123337953d8faa9232ddc6411844c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63956a9888c4dd29010bf465068c8ef2 = $(`<div id="html_63956a9888c4dd29010bf465068c8ef2" style="width: 100.0%; height: 100.0%;">SENS0096-SM-SOPA</div>`)[0];
+                popup_c2123337953d8faa9232ddc6411844c1.setContent(html_63956a9888c4dd29010bf465068c8ef2);
+            
+        
+
+        marker_8b80b9ba8887341dd407f7b1ec718a5c.bindPopup(popup_c2123337953d8faa9232ddc6411844c1)
+        ;
+
+        
+    
+    
+            var marker_7d7fc14da9f9f6fb45501b359288d05a = L.marker(
+                [-33.84878, 151.07798],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_2710013c9e6457905ee897cd2d6e0cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0335f90aaeac220a75bebe3477bd7ff0 = $(`<div id="html_0335f90aaeac220a75bebe3477bd7ff0" style="width: 100.0%; height: 100.0%;">SENS0125-SM-SOPA</div>`)[0];
+                popup_2710013c9e6457905ee897cd2d6e0cb8.setContent(html_0335f90aaeac220a75bebe3477bd7ff0);
+            
+        
+
+        marker_7d7fc14da9f9f6fb45501b359288d05a.bindPopup(popup_2710013c9e6457905ee897cd2d6e0cb8)
+        ;
+
+        
+    
+    
+            marker_7d7fc14da9f9f6fb45501b359288d05a.bindTooltip(
+                `<div>
+                     0125
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c636f08a836fa4f7e5a25316c7f4b413 = L.marker(
+                [-33.84878, 151.07798],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_504d12eed43d08e775b583f250496eb7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0125\u003c/div\u003e"});
+            marker_c636f08a836fa4f7e5a25316c7f4b413.setIcon(div_icon_504d12eed43d08e775b583f250496eb7);
+        
+    
+        var popup_07caba1dbacd5d001c4bfc36e6d51af1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7fba56acf8002b771db719b9798621c = $(`<div id="html_d7fba56acf8002b771db719b9798621c" style="width: 100.0%; height: 100.0%;">SENS0125-SM-SOPA</div>`)[0];
+                popup_07caba1dbacd5d001c4bfc36e6d51af1.setContent(html_d7fba56acf8002b771db719b9798621c);
+            
+        
+
+        marker_c636f08a836fa4f7e5a25316c7f4b413.bindPopup(popup_07caba1dbacd5d001c4bfc36e6d51af1)
+        ;
+
+        
+    
+    
+            var marker_a1cd426fb49f020fdce79a4fc2735347 = L.marker(
+                [-33.84739, 151.07842],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_65d3435c833cb8c0edda4d4562adf828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_535290a79ab3208cff225194bfbac2fa = $(`<div id="html_535290a79ab3208cff225194bfbac2fa" style="width: 100.0%; height: 100.0%;">SENS0126-SM-SOPA</div>`)[0];
+                popup_65d3435c833cb8c0edda4d4562adf828.setContent(html_535290a79ab3208cff225194bfbac2fa);
+            
+        
+
+        marker_a1cd426fb49f020fdce79a4fc2735347.bindPopup(popup_65d3435c833cb8c0edda4d4562adf828)
+        ;
+
+        
+    
+    
+            marker_a1cd426fb49f020fdce79a4fc2735347.bindTooltip(
+                `<div>
+                     0126
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60be87f90156a9aa9216c7ce759f6280 = L.marker(
+                [-33.84739, 151.07842],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_4745d36951975991af5efc807016553e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0126\u003c/div\u003e"});
+            marker_60be87f90156a9aa9216c7ce759f6280.setIcon(div_icon_4745d36951975991af5efc807016553e);
+        
+    
+        var popup_8f245ec540d421abac3516438ff99b9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a04e5c9f55af85fb1b54024104e6717a = $(`<div id="html_a04e5c9f55af85fb1b54024104e6717a" style="width: 100.0%; height: 100.0%;">SENS0126-SM-SOPA</div>`)[0];
+                popup_8f245ec540d421abac3516438ff99b9c.setContent(html_a04e5c9f55af85fb1b54024104e6717a);
+            
+        
+
+        marker_60be87f90156a9aa9216c7ce759f6280.bindPopup(popup_8f245ec540d421abac3516438ff99b9c)
+        ;
+
+        
+    
+    
+            var marker_83013d4678d6bb2ea72377337b144550 = L.marker(
+                [-33.84682, 151.07811],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_43d99024e303e385cb3565d3b01fc4af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61fcf86ef4014452093db5fd607fb878 = $(`<div id="html_61fcf86ef4014452093db5fd607fb878" style="width: 100.0%; height: 100.0%;">SENS0146-SM-SOPA</div>`)[0];
+                popup_43d99024e303e385cb3565d3b01fc4af.setContent(html_61fcf86ef4014452093db5fd607fb878);
+            
+        
+
+        marker_83013d4678d6bb2ea72377337b144550.bindPopup(popup_43d99024e303e385cb3565d3b01fc4af)
+        ;
+
+        
+    
+    
+            marker_83013d4678d6bb2ea72377337b144550.bindTooltip(
+                `<div>
+                     0146
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec397f87e630e1f6662dfafb2611d4d5 = L.marker(
+                [-33.84682, 151.07811],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_c7799a32476a133add3fc0b8d2082f4b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0146\u003c/div\u003e"});
+            marker_ec397f87e630e1f6662dfafb2611d4d5.setIcon(div_icon_c7799a32476a133add3fc0b8d2082f4b);
+        
+    
+        var popup_4005c43262eb5782ca3b2fe446748a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_070c30778c7a16cd4ff3d6d968016c0d = $(`<div id="html_070c30778c7a16cd4ff3d6d968016c0d" style="width: 100.0%; height: 100.0%;">SENS0146-SM-SOPA</div>`)[0];
+                popup_4005c43262eb5782ca3b2fe446748a13.setContent(html_070c30778c7a16cd4ff3d6d968016c0d);
+            
+        
+
+        marker_ec397f87e630e1f6662dfafb2611d4d5.bindPopup(popup_4005c43262eb5782ca3b2fe446748a13)
+        ;
+
+        
+    
+    
+            var marker_c1214f66b0b6cb84c99a1ba33dec6f79 = L.marker(
+                [-33.84695, 151.07869],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_857895d9c67e8c6ad3eb6c44c8507d1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91977d574ce4b404d2512f44e7523dc6 = $(`<div id="html_91977d574ce4b404d2512f44e7523dc6" style="width: 100.0%; height: 100.0%;">SENS0148-SM-SOPA</div>`)[0];
+                popup_857895d9c67e8c6ad3eb6c44c8507d1a.setContent(html_91977d574ce4b404d2512f44e7523dc6);
+            
+        
+
+        marker_c1214f66b0b6cb84c99a1ba33dec6f79.bindPopup(popup_857895d9c67e8c6ad3eb6c44c8507d1a)
+        ;
+
+        
+    
+    
+            marker_c1214f66b0b6cb84c99a1ba33dec6f79.bindTooltip(
+                `<div>
+                     0148
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dc97120b9881f91a8b24efdfb7228c4 = L.marker(
+                [-33.84695, 151.07869],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_9bfccc05b23881a656452087bc10af6d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0148\u003c/div\u003e"});
+            marker_3dc97120b9881f91a8b24efdfb7228c4.setIcon(div_icon_9bfccc05b23881a656452087bc10af6d);
+        
+    
+        var popup_9284617e76b1fbcdbd965f65976c4113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcdb694035289993a45b4cbdddffb12d = $(`<div id="html_dcdb694035289993a45b4cbdddffb12d" style="width: 100.0%; height: 100.0%;">SENS0148-SM-SOPA</div>`)[0];
+                popup_9284617e76b1fbcdbd965f65976c4113.setContent(html_dcdb694035289993a45b4cbdddffb12d);
+            
+        
+
+        marker_3dc97120b9881f91a8b24efdfb7228c4.bindPopup(popup_9284617e76b1fbcdbd965f65976c4113)
+        ;
+
+        
+    
+    
+            var marker_33a2be4e36740af813a79d8fd64ba8a7 = L.marker(
+                [-33.84713, 151.07833],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+        var popup_c138afe8e1c76eafc30cd1209c749537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709f4a360b5a874cb543d32c8f086735 = $(`<div id="html_709f4a360b5a874cb543d32c8f086735" style="width: 100.0%; height: 100.0%;">SENS0155-SM-SOPA</div>`)[0];
+                popup_c138afe8e1c76eafc30cd1209c749537.setContent(html_709f4a360b5a874cb543d32c8f086735);
+            
+        
+
+        marker_33a2be4e36740af813a79d8fd64ba8a7.bindPopup(popup_c138afe8e1c76eafc30cd1209c749537)
+        ;
+
+        
+    
+    
+            marker_33a2be4e36740af813a79d8fd64ba8a7.bindTooltip(
+                `<div>
+                     0155
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7d955f398b1e0e7ec593dd53882f824 = L.marker(
+                [-33.84713, 151.07833],
+                {}
+            ).addTo(map_80626af5268a33966c7f49defc25a79f);
+        
+    
+            var div_icon_007d3cc49f2f9b76af09b58b465e2206 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-weight: bold; font-size: 11px;\u0027\u003eSensor 0155\u003c/div\u003e"});
+            marker_e7d955f398b1e0e7ec593dd53882f824.setIcon(div_icon_007d3cc49f2f9b76af09b58b465e2206);
+        
+    
+        var popup_ed184860dd53516774389bdb8d47ceb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9df26e143bc9ebe281f8cbb52e417eb0 = $(`<div id="html_9df26e143bc9ebe281f8cbb52e417eb0" style="width: 100.0%; height: 100.0%;">SENS0155-SM-SOPA</div>`)[0];
+                popup_ed184860dd53516774389bdb8d47ceb5.setContent(html_9df26e143bc9ebe281f8cbb52e417eb0);
+            
+        
+
+        marker_e7d955f398b1e0e7ec593dd53882f824.bindPopup(popup_ed184860dd53516774389bdb8d47ceb5)
+        ;
+
+        
+    
+</script>
+</html>
